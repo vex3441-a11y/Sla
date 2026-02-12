@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- SEO ESSENCIAL -->
+  <title>Vex Hub – Delta Executor, Discord e Links Oficiais</title>
+
+  <meta name="description" content="Vex Hub é uma página com links oficiais do Delta Executor, Discord da comunidade, ferramentas, projetos e conteúdos relacionados a scripts Roblox.">
+
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Vex">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body, html {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    /* VIDEO DE FUNDO */
+    video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    /* OVERLAY */
+    .overlay {
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.55);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* CONTAINER */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      width: 90%;
+      max-width: 900px;
+    }
+
+    /* CARD */
+    .card {
+      background: rgba(0, 120, 255, 0.18);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 30px 20px;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 0 20px rgba(0, 120, 255, 0.3);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(0, 120, 255, 0.6);
+    }
+
+    .card h2 {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+
+    /* BOTÃO */
+    .card button {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      background: #0078ff;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .card button:hover {
+      background: #005ed1;
+    }
+
+    /* TEXTO SEO INVISÍVEL (GOOGLE LÊ) */
+    .seo-text {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- TEXTO PARA SEO -->
+  <section class="seo-text">
+    <h1>Vex Hub – Delta Executor e Comunidade</h1>
+
+    <p>
+      Vex Hub é uma página criada para centralizar links importantes relacionados
+      ao Delta Executor, incluindo o Discord oficial, ferramentas úteis,
+      projetos em desenvolvimento e conteúdos sobre scripts Roblox.
+    </p>
+
+    <p>
+      Aqui você encontra acesso rápido à comunidade Delta, informações sobre
+      executores, automações e futuros projetos criados por Vex.
+    </p>
+  </section>
+
+  <!-- VIDEO -->
+  <video autoplay loop muted playsinline>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <!-- INTERFACE -->
+  <div class="overlay">
+    <div class="container">
+
+      <div class="card">
+        <h2>Delta Discord</h2>
+        <button onclick="window.open('https://discord.gg/deltax', '_blank')">
+          Entrar
+        </button>
+      </div>
+
+      <div class="card">
+        <h2>Key Bypass</h2>
+        <button onclick="window.open('https://izen.lol/', '_blank')">
+          Acessar
+        </button>
+      </div>
+
+      <div class="card">
+        <h2>Meu Site</h2>
+        <button onclick="alert('Em breve 👀')">
+          Em breve
+        </button>
+      </div>
+
+      <div class="card">
+        <h2>Scripter IA</h2>
+        <button onclick="alert('Download em breve')">
+          Download APK
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
