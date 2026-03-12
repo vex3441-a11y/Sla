@@ -1,0 +1,1 @@
+print("Arquivo de teste criado com sucesso pelo Vertex.ai!")
